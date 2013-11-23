@@ -79,10 +79,10 @@ $(document).ready(function () {
     });
     $('.coll_image img').hover(function () {
         $(this).fadeIn(function () {
-            $(this).attr('src', 'college_image.png');
+            $(this).attr('src', 'images/college_image.png');
         });
     }, function () {
-        $(this).attr('src', 'black_n_white.png');
+        $(this).attr('src', 'images/black_n_white.png');
     });
     $('.my_photo img').hover(function () {
         $(this).animate({
